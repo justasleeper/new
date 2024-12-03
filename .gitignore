@@ -1,0 +1,25 @@
+/node_modules
+/.env.local
+/.umirc.local.ts
+/config/config.local.ts
+/src/.umi
+/src/.umi-production
+/src/.umi-test
+/.umi
+/.umi-production
+/.umi-test
+/dist
+/.mfsu
+.swc
+
+*.class
+*.log
+*.lock
+
+
+
+# *.tXt #忽略所有 .txt结尾的文件,这样的话上传就不会被选中!
+# !lib.txt #但7ib.txt除外
+# /temp #仅忽略项目根目录下的TOOO文件，不包括其它目永temp
+# build/ #忽略bui1d/目录下的所有文件
+# doc/*.txt #会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
